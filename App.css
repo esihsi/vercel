@@ -1,0 +1,28 @@
+body {
+  background: #f7f7fa;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+input[type="file"] {
+  margin: 1rem 0;
+}
+
+button {
+  background: #4f8cff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:disabled {
+  background: #b0c4de;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  background: #2563eb;
+} 
